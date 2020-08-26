@@ -1,0 +1,178 @@
+/* site structure */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: hsl(0, 0%, 98%);
+}
+
+#container {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+	margin: 0 280px;
+	color: hsl(234, 12%, 34%);
+}
+
+/***********************************/
+
+/* box */
+
+#boxGreen {
+	border-top: 4px solid hsl(180, 62%, 55%);
+	padding: 5px 25px 35px 25px;
+	width: 260px;
+	height: 185px;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: -1px 1px 10px hsl(229, 6%, 66%);
+}
+
+#boxRed {
+	border-top: 4px solid hsl(0, 78%, 62%);
+	padding: 5px 25px 35px 25px;
+    width: 260px;
+    height: 185px;
+	margin: 10px 10px;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: -1px 1px 10px hsl(229, 6%, 66%);
+}
+
+#boxYellow {
+	border-top: 4px solid hsl(34, 97%, 64%);
+	padding: 5px 25px 35px 25px;
+	margin: 20px 10px 10px 10px;
+    width: 260px;
+    height: 185px;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: -1px 1px 10px hsl(229, 6%, 66%);
+}
+
+#boxBlue {
+	border-top: 4px solid hsl(212, 86%, 64%);
+	padding: 5px 25px 35px 25px;
+    width: 260px;
+    height: 185px;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: -1px 1px 10px hsl(229, 6%, 66%);
+}
+
+/*********************************/
+
+/* structure of the box elements */
+
+p {
+	color: hsl(234, 12%, 34%);
+	font-size: 12px;
+	padding: 0 20px 25px 0;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+}
+
+h2 {
+	color: hsl(234, 12%, 34%);
+	font-size: 2.1em;
+	margin: 0;
+}
+
+h2.extra, h4.extra {
+	color: hsl(234, 12%, 34%);
+	font-weight: 200;
+}
+
+h3 {
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+
+h4.extra {
+		font-size: 13px;
+		margin: 12px 20px;
+	}
+
+/**********************************/
+
+/* display css */
+
+#content {
+	position: relative;
+	clear: both;
+}
+
+#left {
+	float: left;
+	padding: 150px 30px 0 55px;
+
+}
+
+#center {
+	position: absolute;
+	left: 35%;
+	top: 35%;
+}
+
+#right {
+	float: right;
+	padding: 150px 50px 0 30px;
+}
+
+/******************************/
+
+/* reponsive */
+
+@media only screen and (max-width: 475px) {
+
+	#container {
+		width: 400px;
+	}
+
+	header {
+		font-size: 12px;
+		margin: 0;
+	}
+
+	h4.extra {
+		font-size: 16px;
+		margin: 13px 27px;
+	}
+
+	#content {
+		margin: 9%;
+	}
+
+	#left {
+		left: 0;
+		top: 0;
+		float: none;
+		padding: 0 10px;
+	}
+
+	#center {
+		position: static;
+		padding: 0;
+		top: 0;
+		left: 0;
+		padding: 10px 0;
+	}
+
+	#right {
+		top: 0;
+		left: 0;
+		padding: 0 9px 9px 0px;
+		margin-left: 0; 
+	}
+
+}
+}
